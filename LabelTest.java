@@ -2,14 +2,14 @@
 // Testing LabelFrame.
 import javax.swing.JFrame;
 
-public class LabelTest 
+public class LabelTest // cria classe LabelTest
 {
-   public static void main(String[] args)
+   public static void main(String[] args)// cria inicializador
    { 
-      LabelFrame labelFrame = new LabelFrame(); 
-      labelFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-      labelFrame.setSize(760, 780); 
-      labelFrame.setVisible(true); 
+      LabelFrame labelFrame = new LabelFrame(); // cria um novo objeto e atribui ele a variavel labelFrame do tipo labelFrame 
+      labelFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// chama um metodo para ajustar o encerramento da operação 
+      labelFrame.setSize(760, 780);// ajusta o tamanho da janela passando largura e altura
+      labelFrame.setVisible(true); // usa um metodo para deixar o frame visivel usando um paramentro booleano
    } 
 } // end class LabelTest
 
