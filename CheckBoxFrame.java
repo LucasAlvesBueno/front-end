@@ -65,7 +65,7 @@ public class CheckBoxFrame extends JFrame
 
 
             if(underLineCheckBox.isSelected()){
-
+                  textField.setFont(font);
                   font = textField.getFont();
                   Map attributes = font.getAttributes();
                   attributes.put(TextAttribute.UNDERLINE, TextAttribute.UNDERLINE_ON);
@@ -76,7 +76,7 @@ public class CheckBoxFrame extends JFrame
 
 
             }
-         textField.setFont(font); 
+          
       } 
    }
 } // end class CheckBoxFrame
