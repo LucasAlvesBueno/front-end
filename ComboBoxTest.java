@@ -1,15 +1,15 @@
 // Fig. 12.22: ComboBoxTest.java
 // Testing ComboBoxFrame.
-import javax.swing.JFrame;
+import javax.swing.JFrame; //Importa biblioteca
 
-public class ComboBoxTest
+public class ComboBoxTest // cria a classe publica ComboBoxTest
 {
-   public static void main(String[] args)
+   public static void main(String[] args) //Cria o inicializador
    { 
-      ComboBoxFrame comboBoxFrame = new ComboBoxFrame(); 
-      comboBoxFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-      comboBoxFrame.setSize(350, 150); 
-      comboBoxFrame.setVisible(true); 
+      ComboBoxFrame comboBoxFrame = new ComboBoxFrame(); // cria a variavel comboBoxFrame do tipo ComboBoxFrame e atribui um novo objeto a ela
+      comboBoxFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);// define o fechamento da aplicação
+      comboBoxFrame.setSize(350, 150); //define o tamanho e largura 
+      comboBoxFrame.setVisible(true); // define visibilidade
    } 
 } // end class ComboBoxTest
 
